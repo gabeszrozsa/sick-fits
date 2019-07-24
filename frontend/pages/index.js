@@ -1,5 +1,7 @@
-const IndexPage = () => {
-  return <p>hey</p>;
+import Items from "../components/items";
+
+const Home = () => {
+  return <Items />;
 };
 
-export default IndexPage;
+export default Home;
