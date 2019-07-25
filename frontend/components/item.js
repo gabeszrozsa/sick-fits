@@ -6,7 +6,7 @@ import ItemStyles from "./styles/ItemStyles";
 import PriceTag from "./styles/PriceTag";
 import formatMoney from "../lib/formatMoney";
 
-export default class item extends Component {
+class Item extends Component {
   static propTypes = {
     item: PropTypes.object.isRequired
   };
@@ -35,3 +35,5 @@ export default class item extends Component {
     );
   }
 }
+
+export default Item;
